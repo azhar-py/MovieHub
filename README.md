@@ -17,13 +17,13 @@ It includes authentication, CRUD operations, and follows MVC structure.
 ## 📂 Project Structure
 
 project/
-│── controllers/ # Controller logic
-│── models/ # Mongoose models
-│── routes/ # Express routes
-│── middlewares/ # Middleware functions
-│── config/ # DB & other config
-│── server.js # App entry point
-│── package.json
-│── .env
-│── README.md
-│── .gitignore
+- │── controllers/ # Controller logic
+- │── models/ # Mongoose models
+- │── routes/ # Express routes
+- │── middlewares/ # Middleware functions
+- │── config/ # DB & other config
+- │── server.js # App entry point
+- │── package.json
+- │── .env
+- │── README.md
+- │── .gitignore
