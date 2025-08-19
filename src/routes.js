@@ -23,10 +23,10 @@ router.get("/auth/profile", auth, profile);
 
 
 
-router.get("/trending", trending);
-router.get("/popular", popular);
-router.get("/search", search);
-router.get("/:id", details);
+router.get("/movies/trending", trending);
+router.get("/movies/popular", popular);
+router.get("/movies/search", search);
+router.get("/movies/:id", details);
 
 router.post("/:id/favorite", auth, addFavorite);
 router.delete("/:id/favorite", auth, removeFavorite);
